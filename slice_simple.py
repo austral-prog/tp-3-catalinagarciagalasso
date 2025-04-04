@@ -1,5 +1,13 @@
 def slice_simple():
     texto = "Awesome"
+    primeras = texto[0:3].lower()
+    medio = texto[2:5].lower()
+    completo = texto[0:4].lower() + texto[4:].lower()
+    print(primeras)
+    print(medio)
+    print(completo)
+
+slice_simple()
     # Código a implementar, se debe utilizar la variable 'texto' para resolver el ejercicio.
     # No se debe modificar la definición de la función, ni ingresar otro valor mediante input.
 
